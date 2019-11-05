@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import { createStructuredSelector } from "reselect";
+// import { createStructuredSelector } from "reselect";
 
-const Posts = () => {
+const Posts = ({ posts }) => {
+  console.log(posts);
   // ─── SIDEEFFECTS ────────────────────────────────────────────────────────────────
   useEffect(() => {
     //
@@ -14,4 +15,10 @@ const Posts = () => {
   );
 };
 
-export default Posts;
+const mapStateToProps = (state) => {
+  return {
+    posts: state.posts,
+  };
+};
+
+export default connect(mapStateToProps)(Posts);
