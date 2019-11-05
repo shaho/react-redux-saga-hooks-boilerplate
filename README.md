@@ -1,5 +1,7 @@
 # React/Redux/Sagas/Hooks boilerplate
 
+[Demo](https://react-redux-saga-hooks-boilerplate.netlify.com/)
+
 ### Dependencies
 
 ---
@@ -15,3 +17,11 @@
 ---
 
 - [Logger for Redux](https://github.com/LogRocket/redux-logger): Logger for Redux
+
+### Getting Started
+
+#### Dev
+
+```bash
+$ yarn install && yarn start
+```
