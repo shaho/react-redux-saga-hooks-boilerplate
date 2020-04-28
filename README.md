@@ -22,7 +22,7 @@
 
 ---
 
-#### Dev
+#### Development
 
 ```bash
 $ yarn && yarn start
