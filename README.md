@@ -1,6 +1,6 @@
 # React/Redux/Sagas/Hooks boilerplate
 
-Project [Demo](https://react-redux-saga-hooks-boilerplate.netlify.com/)
+Project [Demo](https://react-redux-saga-hooks-boilerplate.netlify.app/)
 
 ### Dependencies
 
